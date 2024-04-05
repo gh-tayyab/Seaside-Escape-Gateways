@@ -42,9 +42,9 @@ const ImageSlider = () => {
     }
 
   return (
-    <div className='max-w-[1400px] h-[600px] w-full m-auto py-16 px-4 relative'>
+    <div data-aos ="fade-up" className='max-w-[1400px] h-[600px] w-full m-auto py-16 px-4 relative'>
         
-        <div className='w-full h-full rounded-2xl bg-center bg-cover duration-500' 
+        <div  className='w-full h-full rounded-2xl bg-center bg-cover duration-500' 
         style={{backgroundImage: slides && slides[currentIndex] ? `url(${slides[currentIndex].url})` : ''}}>
         </div>
 
